@@ -19,7 +19,6 @@ export default async function Home({ params }: { params: {slug: string}}) {
     const title = data.frontmatter.title;
     return (
         
-        
         <main className="flex flex-col place-self-center w-6/12 border mt-3 p-5 border-black border-2 bg-pallet_1 rounded">
             
             <div className="title font-semibold text-2xl tracking-tighter">
